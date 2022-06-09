@@ -1,0 +1,129 @@
+.home-content__video {
+  display: inline-block;
+  margin-top: 4.2rem;
+}
+
+.home-content__video .video-link {
+  display: block;
+  text-align: center;
+  width: 20rem;
+  outline: none;
+  position: relative;
+}
+
+.home-content__video .video-icon {
+  display: inline-block;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  background-color: #793ea5;
+  background-image: url(../../images/icons/icon-play.svg);
+  background-repeat: no-repeat;
+  background-position: 55% center;
+  background-size: 24px 27px;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.home-content__video .video-text {
+  display: inline-block;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: #9c9c9c;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  position: relative;
+}
+
+.home-content__video .video-link:hover .video-text {
+  color: white;
+}
+
+.home-content__video .video-link:hover .video-icon {
+  background-color: #6b3792;
+}
+
+/* responsive */
+@media only screen and (max-width: 1400px) {
+  .home-content__video .video-icon {
+    height: 8.4rem;
+    width: 8.4rem;
+    background-size: 22px 24px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .home-content__video {
+    height: 6.6rem;
+    line-height: 6.6rem;
+    vertical-align: middle;
+  }
+
+  .home-content__video .video-link {
+    padding-left: 9rem;
+    width: auto;
+  }
+
+  .home-content__video .video-icon {
+    height: 6.6rem;
+    width: 6.6rem;
+    background-size: 12px 13px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .home-content__video {
+    margin-top: 3.6rem;
+  }
+
+  .home-content__video .video-link {
+    padding-left: 8rem;
+  }
+
+  .home-content__video .video-icon {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .home-content__video .video-text {
+    top: -6px;
+    font-size: 1.2rem;
+    line-height: 6rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home-content__video {
+    margin-top: 3rem;
+  }
+  .home-content__video .video-text {
+    top: -6px;
+    font-size: 1rem;
+    line-height: 6rem;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .home-content__video .video-link {
+    padding-left: 5.5rem;
+  }
+
+  .home-content__video .video-icon {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .home-content__video .video-text {
+    line-height: 5.4rem;
+    margin-bottom: 100px;
+    font-size: .5rem;
+  }
+}
