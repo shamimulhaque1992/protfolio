@@ -2,7 +2,7 @@ import React from "react";
 
 const SocialLinks = () => {
   return (
-    <div className="w-3/12 flex items-end ">
+    <div className="flex md:items-end sm:items-start md:mt-0 sm:mt-60">
       <ul class="flex flex-col mx-10">
         <li className="mb-3">
           <a href="#0">

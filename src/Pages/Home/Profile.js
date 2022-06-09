@@ -5,7 +5,7 @@ import VideoResume from './VideoResume';
 
 const Profile = () => {
     return (
-        <div className="w-9/12 flex mx-10 flex-col items-start">
+        <div className="flex flex-col w-full">
             <BasicInfo></BasicInfo>
             <VideoResume></VideoResume>
             <EasyAccess></EasyAccess>

@@ -1,14 +1,36 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
+/* import * as Scroll from 'react-scroll';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll' */
+import profilePic from "../../../images/profilePic.png"
 
 const Navbar = () => {
   const navitem = (
     <>
       <li>
-        <a>Navbar Item 1</a>
+        <Link to="/" spy={true} smooth={true} offset={50} duration={1000} >
+          <i class="fa-solid fa-house mx-2"></i>Home
+        </Link>
       </li>
       <li>
-        <a>Navbar Item 2</a>
+        <Link to="about" spy={true} smooth={true} offset={50} duration={1000} >
+          <i class="fa-solid fa-address-card mx-2"></i>About
+        </Link>
+      </li>
+      <li>
+        <Link to="/skills" spy={true} smooth={true} offset={50} duration={500} >
+          <i class="fa-solid fa-sliders mx-2"></i>Skills
+        </Link>
+      </li>
+      <li>
+        <Link to="/projects" spy={true} smooth={true} offset={50} duration={500} >
+          <i class="fa-solid fa-diagram-project mx-2"></i>Projects
+        </Link>
+      </li>
+      <li>
+        <Link to="/contact" spy={true} smooth={true} offset={50} duration={500} >
+          <i class="fa-solid fa-handshake mx-2"></i>Contact Me
+        </Link>
       </li>
     </>
   );
@@ -18,14 +40,15 @@ const Navbar = () => {
         <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content flex flex-col">
           <div class="w-full navbar">
-            <div class="flex-none tooltip tooltip-right cursor-pointer" data-tip="Khandoker Shamimul Haque">
+            <div
+              class="flex-none tooltip tooltip-right cursor-pointer"
+              data-tip="Khandoker Shamimul Haque"
+            >
               <i class="text-5xl fab fa-korvue"></i>
             </div>
 
             <div class="grow justify-center hidden lg:block">
-              <ul class="menu menu-horizontal">
-                {navitem}
-              </ul>
+              <ul class="menu menu-horizontal">{navitem}</ul>
             </div>
 
             <div class="flex-1 justify-end lg:hidden">
@@ -50,7 +73,18 @@ const Navbar = () => {
         </div>
         <div class="drawer-side">
           <label for="my-drawer-3" class="drawer-overlay"></label>
-          <ul class="menu p-4 overflow-y-auto w-60 bg-base-100">
+
+          <ul class="menu p-4 overflow-y-auto w-72 bg-base-100">
+            <div className="flex  items-center">
+              <h1 className="text-emerald-300">Navigate to</h1>
+              <hr className="mx-2 w-5/12"/>
+              
+            </div>
+            <img
+              className="w-5/12 mx-auto mt-20 mb-10 border-4 rounded-md"
+              src={profilePic}
+              alt=""
+            />
             {navitem}
           </ul>
         </div>

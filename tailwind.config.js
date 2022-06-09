@@ -2,6 +2,13 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
+    screens: {
+      sm: "320px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1440px",
+      xxl: "2560px",
+    },
   },
   daisyui: {
     themes: [

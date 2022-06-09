@@ -1,16 +1,25 @@
-import React from 'react';
-import Profile from './Profile';
-import ProfileImg from './ProfileImg';
-import SocialLinks from './SocialLinks';
+import React from "react";
+import ContactMe from "../ContactMe/ContactMe";
+import Projects from "../Projects/Projects";
+import About from "./About";
+import Profile from "./Profile";
+
+
+import SocialLinks from "./SocialLinks";
 
 const Home = () => {
-    return (
-        <div className="flex">
-            <SocialLinks></SocialLinks>
-            <Profile></Profile>
-            
-        </div>
-    );
+  return (
+    <div>
+      
+      <div className="flex">
+        <SocialLinks></SocialLinks>
+        <Profile></Profile>
+      </div>
+      <About></About>
+      <Projects></Projects>
+      <ContactMe></ContactMe>
+    </div>
+  );
 };
 
 export default Home;
