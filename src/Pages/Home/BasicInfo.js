@@ -23,7 +23,7 @@ const BasicInfo = () => {
         />
         </div>
         <h1 className="sm:text-2xl sm:mx-0 md:text-5xl sm:w-9/12 md:w-full font-bold mt-10 mb-10 md:mx-auto">
-          KHANDOKER SHAMIMUL HAQUE.
+          KHANDOKER SHAMIMUL HAQUE <span className="text-red-400 ">.</span>
         </h1>
 
         <p className="py-6 sm:w-full md:w-6/12 md:mx-auto sm:mx-0 sm:text-left md:text-center">

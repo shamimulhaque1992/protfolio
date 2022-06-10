@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "mame": "Personal Photography",
+    "description": "A B2B type website of a PC parts manufacturer company.",
+    "img": "https://i.ibb.co/P10W9dq/compsolution.png",
+    "sc1":"https://i.ibb.co/0FLXyXn/Screenshot-373.png",
+    "sc2":"https://i.ibb.co/M1vn7F4/Screenshot-370.png",
+    "sc3":"https://i.ibb.co/qpyn6hb/Screenshot-371.png",
+    "sc1text":"Users profile. Here Every User can see their profile and Update it",
+    "sc2text":"Here Admin can see all users and give other user admin access",
+    "sc3text":"Here admin can see all order information",
+    "sc1title":"Profile Scetion",
+    "sc2title":"Users section",
+    "sc3title":"Order section"
+  },
+  {
+    "id": 2,
+    "title": "Wedding Photography",
+    "description": "I can be hired as Wedding Photographer ",
+    "price": "৳ 1000 BDT",
+    "review": 420,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "https://www.aweddingsong.com/wp-content/uploads/2021/10/wedding-photographer-1024x683-1.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Wedding Ceremony Coverage",
+    "description": "I can be hired as Wedding Ceremony photographer ",
+    "price": "৳ 1000 BDT",
+    "review": 420,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "https://i.pinimg.com/736x/07/31/7c/07317c23ca54d7ea2aba4569614578de--indian-wear-wedding-ceremonies.jpg"
+  }
+]

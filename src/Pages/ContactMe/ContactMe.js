@@ -20,7 +20,7 @@ const ContactMe = () => {
     );
   };
   return (
-    <div>
+    <div id="contact">
       <hr className="w-8/12 mx-auto mt-40 " />
       <div className="hero min-h-screen ">
         <div className="container  mx-auto  hero-content flex-col mb-20 mt-10 lg:flex-row">
