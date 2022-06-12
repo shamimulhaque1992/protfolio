@@ -7,12 +7,14 @@ const VideoResume = () => {
         <a
           class=""
           href="https://drive.google.com/file/d/194MYflyr3E3IIyTMpRjplVVxLnqd4NoQ/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
           data-lity
         >
           <div className="mx-auto mt-10 mb-8 ">
-            <i class="sm:text-9xl fa-solid fa-circle-play text-fuchsia-700"></i>
+            <i class="sm:text-8xl md:text-9xl fa-solid fa-circle-play text-fuchsia-700 hover:scale-105 hover:rotate-360 ease-in duration-500"></i>
           </div>
-          <span class="text-stone-500 text-2xl hover:text-red-500">Watch My Video Resume</span>
+          <span class="text-stone-500 text-2xl hover:text-red-500 duration-500">Watch My Video Resume</span>
         </a>
       </div>
     </div>

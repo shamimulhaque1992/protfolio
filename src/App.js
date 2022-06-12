@@ -7,6 +7,7 @@ import Home from "./Pages/Home/Home";
 import Skills from "./Pages/Home/Skills";
 import ProjectDetails from "./Pages/Projects/ProjectDetails";
 import Projects from "./Pages/Projects/Projects";
+import Footer from "./Pages/Shared/Footer/Footer";
 import Navbar from "./Pages/Shared/Navbar/Navbar";
 
 function App() {

@@ -1,10 +1,12 @@
 import React from "react";
 import profilePic from "../../images/profilePic.png";
 
+import MovingComponent from "react-moving-text";
+
 const About = () => {
   
   return (
-    <div id="about" class="hero min-h-screen bg-base-200" >
+    <div id="about" class="hero min-h-screen bg-base-200 pb-20" >
       <div class="hero-content flex-col md:flex-row">
         <img
           src={profilePic}
@@ -12,7 +14,17 @@ const About = () => {
           alt=""
         />
         <div>
-          <h1 class="sm:text-2xl md:text-5xl font-bold">Front-End Web Developer</h1>
+          <MovingComponent
+          type="fadeIn"
+          duration="2000ms"
+          delay="0s"
+          direction="normal"
+          timing="ease"
+          iteration="infinite"
+          fillMode="none"
+        >
+          <h1 className="text-5xl mt-32 font-bold">Front-End Web Developer</h1>
+        </MovingComponent>
           <p class="py-6 sm:w-11/12 md:text-xl">
             I'm a Front-End Web Developer. I'm highly dedicated to work and passionate with my goal. <br /> <br />
 

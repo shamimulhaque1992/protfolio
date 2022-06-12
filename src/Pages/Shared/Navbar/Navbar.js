@@ -50,7 +50,7 @@ const Navbar = () => {
               class="flex-none tooltip tooltip-right cursor-pointer"
               data-tip="Khandoker Shamimul Haque"
             >
-              <i class="text-5xl fab fa-korvue"></i>
+              <i class="text-5xl mx-10 fab fa-korvue"></i>
             </div>
 
             <div class="grow justify-center hidden lg:block">

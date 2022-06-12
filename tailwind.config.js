@@ -1,7 +1,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      rotate: {
+        '360': '360deg',
+      }
+    },
     screens: {
       sm: "320px",
       md: "768px",

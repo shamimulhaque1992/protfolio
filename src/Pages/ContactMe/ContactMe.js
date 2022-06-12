@@ -2,6 +2,7 @@ import { init, sendForm } from "@emailjs/browser";
 import React from "react";
 import { useForm } from "react-hook-form";
 
+
 const ContactMe = () => {
   init("7Bmfp_2yDEK2QyLUk");
   const {
@@ -26,15 +27,15 @@ const ContactMe = () => {
         <div className="container  mx-auto  hero-content flex-col mb-20 mt-10 lg:flex-row">
           <div class="text-center lg:text-left">
             <h1 class="text-5xl font-bold">Contact Info.</h1>
-            <p class="">Bangladesh</p>
-            <p class="">
+            <p class="text-left my-10 text-2xl text-green-300">Bangladesh</p>
+            <p class="text-left">
               <i class="fa-solid fa-location-dot mx-3 p-4"></i>
               kallyanpur, Dhaka
             </p>
-            <p class="">
+            <p class="text-left">
               <i class="fa-solid fa-phone mx-3 p-4"></i>+880 1779-312970
             </p>
-            <p class="">
+            <p class="text-left">
               <i class="fa-solid fa-envelope mx-3 p-4"></i>
               khandoker15-1992@diu.edu.bd
             </p>
