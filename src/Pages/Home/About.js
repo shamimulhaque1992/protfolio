@@ -23,10 +23,10 @@ const About = () => {
           iteration="infinite"
           fillMode="none"
         >
-          <h1 className="text-5xl mt-32 font-bold">Front-End Web Developer</h1>
+          <h1 className="text-5xl mt-32 font-bold">Full-Stack Web Developer</h1>
         </MovingComponent>
           <p class="py-6 sm:w-11/12 md:text-xl">
-            I'm a Front-End Web Developer. I'm highly dedicated to work and passionate with my goal. <br /> <br />
+            I'm a Full-Stack Web Developer. I'm highly dedicated to my work and passionate with my goal. <br /> <br />
 
             I completed my graduation from Daffodil International University. During my graduation I was involved with various projects and different kind of voluntary works. I was blased with some talented faculties who helped me to develop my skills, knowledge and character.
             <br /><br />

@@ -29,7 +29,7 @@ const BasicInfo = () => {
         <p className="py-6 sm:w-full md:w-6/12 md:mx-auto sm:mx-0 sm:text-left md:text-center">
           I'm a fresh graduate from Daffold International University.I completed
           my graduation in Computer Science and Engineering.Now I'm actively
-          looking fro a job as a Full stack Web Developer.
+          looking fro a job as a Full-Stack Web Developer.
         </p>
         <MovingComponent
           type="fadeIn"
